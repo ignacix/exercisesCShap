@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -83,7 +84,7 @@ namespace ConsoleApp1
 
             // 6.1 Create a tiny piano using the console.
 
-            // using System.Collections;
+
             //Console.Title = "6.1 Piano";
             //Console.Write("press A, S, D, F or G.  Adn space if you want to exit.");
             //ConsoleKeyInfo key = Console.ReadKey(true);
@@ -276,6 +277,50 @@ namespace ConsoleApp1
 
             // } 
 
+
+
+            //15. Solicite un ingreso al usuario y determine si puede ser interpretado como un valor numérico.
+            //Console.WriteLine("Please, enter a number. The program finish with 'exit'");
+            //while (true)
+            //{              
+            //    string txt = Console.ReadLine();
+            //    if (txt.ToLower()=="exit")                
+            //        break;
+                               
+            //    if (double.TryParse(txt,out double val))
+            //        Console.WriteLine($"The number is {val}");
+            //    else
+            //        Console.WriteLine($"Its not a number");               
+            //}
+            //    { }
+
+
+
+            //16. Solicite un ingreso al usuario y determine si puede ser interpretado como un número entero.
+            //(De aquí en más todos los ingresos del usuario deben ser verificados, finalizando el programa con un mensaje de error en caso de ser inválidos)
+
+            //Console.WriteLine("Please, enter a number. The program finish with 'exit'");
+            //while (true)
+            //{
+            //    string txt = Console.ReadLine();
+            //    if (txt.ToLower() == "exit")
+            //        break;
+
+            //    if (int.TryParse(txt, out int val))
+            //        Console.WriteLine($"The number is {val}");
+            //    else
+            //    {
+            //        Console.WriteLine($"Its not a number");
+            //        break;
+            //    }                    
+            //}
+            //Console.ReadKey();
+
+            //17. Solicite el ingreso de dos números al usuario y presente la suma, la resta, la multiplicación, la división, el resto, el primero elevado a la potencia del segundo.
+
+
+
+            //18. Solicite el ingreso de un número al usuario y lo presente redondeado a dos decimales.
 
         }
     }
