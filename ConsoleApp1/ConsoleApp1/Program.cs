@@ -286,7 +286,7 @@ namespace ConsoleApp1
             //    string txt = Console.ReadLine();
             //    if (txt.ToLower()=="exit")                
             //        break;
-                               
+
             //    if (double.TryParse(txt,out double val))
             //        Console.WriteLine($"The number is {val}");
             //    else
@@ -318,9 +318,46 @@ namespace ConsoleApp1
 
             //17. Solicite el ingreso de dos números al usuario y presente la suma, la resta, la multiplicación, la división, el resto, el primero elevado a la potencia del segundo.
 
+            //Console.Title = "17";
+            //Console.ForegroundColor = ConsoleColor.Yellow;
+            //double num1 = getANumber("Enter the first number");
+            //double num2 = getANumber("Enter the second number");
+
+            //Console.WriteLine($"Suma: {num1+num2}\n" +
+            //                  $"Resta: {num1 - num2}\n" +
+            //                  $"Multiplicación: {num1 * num2}\n" +
+            //                  $"División: {num1 / num2}\n" +
+            //                  $"Resto: {num1 % num2}\n" +
+            //                  $"Potencia: { Math.Pow(num1, num2)}");
+
+            //Console.ReadLine();
+
+
+            //FUNCTIONS
+            //double getANumber(string print){
+            //    double val1;
+            //    Console.WriteLine(print);
+            //    string text = Console.ReadLine(); 
+            //    bool val = double.TryParse(text, out val1);
+            //    while (val==false)
+            //    {
+            //        Console.WriteLine("Please enter a valid number");
+            //        text = Console.ReadLine();
+            //        val = double.TryParse(text, out val1);
+            //    }        
+            //    return val1;
+            // }
+
 
 
             //18. Solicite el ingreso de un número al usuario y lo presente redondeado a dos decimales.
+
+            //Console.Title = "18";
+            //Console.ForegroundColor = ConsoleColor.Yellow;
+            //double number = getANumber("Enter a number");
+            //number = Math.Round(number, 2);
+            //Console.WriteLine(number);
+            //Console.ReadKey();
 
         }
     }
